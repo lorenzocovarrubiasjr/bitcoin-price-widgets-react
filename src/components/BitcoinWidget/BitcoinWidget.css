@@ -1,0 +1,115 @@
+.widget-container {
+    /* border: 5px;
+    border-color: darkgrey;
+    border-style: outset;
+    border-radius: 25px;
+    background-color: transparent; */
+}
+
+.glass-container {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.15), rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px;
+    /* border: 7px; */
+    /* border-color: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.1)); */
+    /* border-style: outset; */
+    border-radius: 25px;
+    /* background-color: transparent; */
+}
+
+.md {
+    width: 500px;
+    height: 250px;
+}
+
+.sm {
+    width: 250px;
+    height: 250px;
+}
+
+.top-section {
+    width: 100%;
+    height: 25%;
+}
+
+.top-section img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.middle-section {
+    display: flex;
+    justify-items: center;
+    justify-content: flex-start;
+}
+
+.info-column {
+    /* background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.1)); */
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    border: 7px;
+    border-color: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.1));
+    border-radius: 25px;
+}
+
+.current-price {
+    font-size: 96px;
+    font-weight: bold;
+    margin-left: 24px;
+}
+
+.symbol {
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+.currency {
+    font-size: 28px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.live-chip {
+    background: linear-gradient(55deg, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.1));
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+    font-style: italic;
+    border-radius: 25px;
+    width: 56px;
+}
+
+.blinking-dot {
+    width: 12px;
+    height: 12px;
+    background-color: red;
+    border-radius: 50%;
+    animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1
+    }
+
+    50% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
