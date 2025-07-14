@@ -1,11 +1,3 @@
-.widget-container {
-    /* border: 5px;
-    border-color: darkgrey;
-    border-style: outset;
-    border-radius: 25px;
-    background-color: transparent; */
-}
-
 .glass-container {
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.15), rgba(255, 255, 255, 0.1));
     backdrop-filter: blur(10px);
@@ -16,6 +8,7 @@
     /* border-style: outset; */
     border-radius: 25px;
     /* background-color: transparent; */
+    overflow: hidden;
 }
 
 .md {

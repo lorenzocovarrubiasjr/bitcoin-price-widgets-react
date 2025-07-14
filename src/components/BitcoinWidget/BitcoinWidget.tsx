@@ -55,4 +55,4 @@ const BitcoinWidget = () => {
     )
 }
 
-export default BitcoinWidget;
+export { BitcoinWidget };

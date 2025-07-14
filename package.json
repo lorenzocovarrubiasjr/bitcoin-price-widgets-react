@@ -1,8 +1,23 @@
 {
-  "name": "react-bitcoin",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "bitcoin-price-widgets-react",
+  "version": "1.0.0",
+  "description": "A React Bitcoin library for displaying Bitcoin prices and sharing with the world.",
+  "main": "./dist/bitcoin-price-widgets-react.umd.js",
+  "module": "./dist/bitcoin-price-widgets-react.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/bitcoin-price-widgets-react.es.js",
+      "require": "./dist/bitcoin-price-widgets-react.umd.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -24,6 +39,18 @@
     "globals": "^16.3.0",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.35.1",
-    "vite": "^7.0.4"
+    "vite": "^7.0.4",
+    "vite-plugin-dts": "^4.5.4"
+  },
+  "keywords": [
+    "react",
+    "bitcoin",
+    "crypto"
+  ],
+  "author": "Witeout",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lorenzocovarrubiasjr/bitcoin-price-widgets-react"
   }
 }

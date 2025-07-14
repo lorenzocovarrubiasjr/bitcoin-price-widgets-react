@@ -6,3 +6,9 @@ A lightweight React component library for displaying real-time Bitcoin (BTC) pri
 - Glass-like transparent background with a customizable design.
 - No external dependencies beyond React and minimal API usage.
 TypeScript support for robust development.
+
+## Coming Soon
+- Variety of widget sizes: Chip, Mini, Sm, Md, Lg, Banner
+- Custom Styling
+- More Crypto options
+- More Currency options

@@ -1,0 +1,1 @@
+export { BitcoinWidget } from './components/BitcoinWidget/BitcoinWidget';
