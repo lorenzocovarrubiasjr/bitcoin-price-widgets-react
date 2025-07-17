@@ -2,7 +2,7 @@
 A lightweight React component library for displaying real-time Bitcoin (BTC) price data in a stylish widget. Built with Vite and integrated with the CoinGecko API, this library provides an easy-to-use solution for adding Bitcoin price tracking to your React applications.
 
 ## General Widget
-![NPM Bitcoin Price Widget for React - General](https://imgur.com/a/LtJLF29)
+![NPM Bitcoin Price Widget for React - General](https://i.imgur.com/4EfRy6A.png)
 
 ## Features
 - Real-time BTC price updates (refetched every 30 seconds by default).
