@@ -13,7 +13,7 @@
 
 .md {
     width: 500px;
-    height: 250px;
+    min-height: 250px;
 }
 
 .sm {
