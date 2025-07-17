@@ -20,8 +20,6 @@ const BitcoinWidget = () => {
         setLastUpdated(new Date());
     }
 
-    //
-
     useEffect(() => {
         fetchBTCPrice();
         const refreshPrice = setInterval(() => fetchBTCPrice(), 30000);

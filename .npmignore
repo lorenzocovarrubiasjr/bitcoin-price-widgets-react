@@ -1,0 +1,9 @@
+/stories
+.storybook
+*.stories.tsx
+*.test.tsx
+.vitest.*
+vitest.*
+*.spec.*
+src/**/*.stories.*
+src/**/*.test.*

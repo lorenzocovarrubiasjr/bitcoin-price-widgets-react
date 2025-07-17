@@ -16,6 +16,9 @@
     "src/**/*"
   ],
   "exclude": [
+    "src/**/*.stories.tsx",
+    "src/**/*.test.tsx",
+    "src/stories",
     "node_modules",
     "dist"
   ]
