@@ -1,0 +1,59 @@
+.container {
+    height: 24px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.15), rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 32px;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.logo-sm {
+    padding: 3px 0 0 0;
+}
+
+.logo-sm img {
+    width: 42px;
+}
+
+.blinking-dot-md {
+    width: 18px;
+    height: 18px;
+    background-color: red;
+    border-radius: 50%;
+    animation: blink 2s infinite;
+    margin-left: 8px;
+}
+
+.currency-container-sm {
+    display: flex;
+    align-items: center;
+}
+
+.info-column-sm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0 4px 0 12px;
+    border: 7px;
+    border-color: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.1));
+    border-radius: 25px;
+}
+
+.symbol-sm {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.currency-sm {
+    font-size: 12px;
+}
+
+.current-price-sm {
+    font-size: 38px;
+    font-weight: bold;
+    padding: 4px;
+}
