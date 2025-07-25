@@ -1,0 +1,82 @@
+.tooltip {
+    position: absolute;
+    z-Index: 9999;
+    padding: 8px 12px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 24px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+    pointer-events: none;
+}
+
+.top {
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 8px;
+}
+
+.bottom {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 8px;
+}
+
+.left {
+    right: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 8px;
+}
+
+.right {
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 8px;
+}
+
+.arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+
+}
+
+.arrow-top {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 6px 6px 0 6px;
+    border-color: #333 transparent transparent transparent;
+}
+
+.arrow-bottom {
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 0 6px 6px 6px;
+    border-color: transparent transparent #333 transparent;
+}
+
+.arrow-left {
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    border-width: 6px 0 6px 6px;
+    border-color: transparent transparent transparent #333;
+}
+
+.arrow-right {
+    left: 100%;
+    left: 50%;
+    transform: translateY(-50%);
+    border-width: 6px 6px 6px 0;
+    border-color: transparent #333 transparent transparent;
+}

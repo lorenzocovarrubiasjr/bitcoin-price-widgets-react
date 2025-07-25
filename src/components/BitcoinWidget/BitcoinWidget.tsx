@@ -28,7 +28,7 @@ const BitcoinWidget = () => {
     }, [])
 
     return (
-        <div className="glass-container md">
+        <div className="widget-container md">
             <div className='top-section'>
                 <img src={BTCLogo} />
             </div>

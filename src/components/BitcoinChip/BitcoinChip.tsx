@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import BTCShortLogo from '../../assets/bitcoin-short-logo.png'
 import './BitcoinChip.css'
+import Tooltip from '../shared/Tooltip/Tooltip';
 
 const Platform = {
     'coingecko': 'CoinGecko API'
@@ -28,25 +29,23 @@ const BitcoinChip = () => {
     }, [])
 
     return (
-        <div className="container">
-            <div className='logo-sm'>
-                <img src={BTCShortLogo} />
-            </div>
-            <div className="currency-container-sm">
-                <div className="info-column-sm">
-                    <div className="symbol-sm">$</div>
-                    <div className="currency-sm">USD</div>
+        <Tooltip content={`${Platform.coingecko} last update: ${lastUpdated?.toLocaleString()}`}>
+            <div className="container">
+                <div className='logo-sm'>
+                    <img src={BTCShortLogo} />
                 </div>
-                <div className="current-price-sm">
-                    {currentPrice}
+                <div className="currency-container-sm">
+                    <div className="info-column-sm">
+                        <div className="symbol-sm">$</div>
+                        <div className="currency-sm">USD</div>
+                    </div>
+                    <div className="current-price-sm">
+                        {currentPrice}
+                    </div>
                 </div>
+                <div className="blinking-dot-md"></div>
             </div>
-            {/* <div className="bottom-section">
-
-                <div> {lastUpdated && <p>{Platform.coingecko} last update: {lastUpdated.toLocaleString()}</p>}</div>
-            </div> */}
-            <div className="blinking-dot-md"></div>
-        </div>
+        </Tooltip>
     )
 }
 
