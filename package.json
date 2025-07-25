@@ -1,6 +1,6 @@
 {
   "name": "bitcoin-price-widgets-react",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A React Bitcoin library for displaying Bitcoin prices and sharing with the world.",
   "main": "./dist/bitcoin-price-widgets-react.umd.js",
   "module": "./dist/bitcoin-price-widgets-react.es.js",
